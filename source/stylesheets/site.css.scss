@@ -1,24 +1,52 @@
+
+$font: 'IM Fell Double Pica', serif;
+
 body {
   margin: 0;
 }
-.title {
-  height: 100vh;
-  background-image: url("../images/1.jpg");
+.img {
+  height: 110vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.title {
+  background-image: url("../images/1.jpg");
 }
 .thegame {
-  height: 100vh;
   background-image: url("../images/2.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  .text {
+    padding-top: 20em;
+    padding-left: 5em;
+  }
 }
 .about {
-  height: 100vh;
   background-image: url("../images/3.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  .text {
+    float: right;
+    padding-right: 5em;
+    padding-top: 20em;
+  }
+}
+p {
+  font-family: $font;
+  font-size: 1.3em;
+  color: white;
+  margin-top: 0;
+  width: 30em;
+}
+@media screen and (max-width: 750px) {
+  p {
+    text-align: center;
+    margin: auto;
+    padding-top: 10em;
+    width: 80%;
+    font-size: 1.2em;
+  }
+  .thegame, .about {
+    .text {
+      padding: 0;
+      width: 100%;
+    }
+  }
 }
