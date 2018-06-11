@@ -14,7 +14,7 @@ body {
   background-image: url("../images/1.jpg");
   .center {
     width: 100%;
-    padding-top: 22em;
+    padding-top: 200px;
   }
   #killjoy {
     background-image: url("../images/Killjoy.svg");
@@ -23,6 +23,7 @@ body {
     height: 200px;
     margin: auto;
     animation: apparition 4s 1;
+    -webkit-animation: apparition 4s 1;
     origin-transform: center;
   }
   #baseline {
