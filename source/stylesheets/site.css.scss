@@ -22,8 +22,6 @@ body {
     width: 500px;
     height: 200px;
     margin: auto;
-    animation: apparition 4s 1;
-    -webkit-animation: apparition 4s 1;
     origin-transform: center;
   }
   #baseline {
@@ -32,7 +30,6 @@ body {
     font-size: 1.5em;
     font-family: $font;
     margin-top: 10em;
-    animation: apparition 8s 1;
   }
 }
 .thegame {
@@ -94,44 +91,4 @@ p {
   }
 }
 
-@-webkit-keyframes apparition {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-@-moz-keyframes apparition {
-  0% {
-    opacity: 0;
- }
-  100% {
-    opacity: 1;
-  }
-}
-@-ms-keyframes apparition {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-@-o-keyframes apparition {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-@keyframes apparition {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
 
