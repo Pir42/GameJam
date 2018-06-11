@@ -22,6 +22,7 @@ body {
     width: 500px;
     height: 200px;
     margin: auto;
+    -webkit-animation: apparition 4s 1;
     animation: apparition 4s 1;
   }
   #baseline {
@@ -29,7 +30,8 @@ body {
     width: 100%;
     font-size: 1.5em;
     font-family: $font;
-    margin-top: 10em;
+    margin-top: 200px;
+    -webkit-animation: apparition 8s 1;
     animation: apparition 8s 1;
   }
 }
@@ -38,6 +40,23 @@ body {
   display: flex;
   .flex1 {
     width: 50%;
+    .affaire {
+      background-image: url("../images/affaire.png");
+      background-repeat: no-repeat;
+      width: 500px;
+      height: 200px;
+      margin-bottom: 4em;
+    }
+    .text {
+      padding-top: 12em;
+      padding-left: 5em;
+      i {
+        padding-bottom: 1em;
+      }
+      p {
+        margin-left: 3em;
+      }
+    }
   }
   .flex2 {
     width: 50%;
@@ -57,20 +76,25 @@ body {
       }
     }
   }
-  .text {
-    padding-top: 20em;
-    padding-left: 5em;
-    i {
-      padding-bottom: 1em;
-    }
-  }
+
 }
 .about {
   background-image: url("../images/3.jpg");
   .text {
     float: right;
     padding-right: 5em;
-    padding-top: 20em;
+    padding-top: 16em;
+    p {
+      margin-right: 3em;
+    }
+  }
+  .projet {
+    background-image: url("../images/projet.png");
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 200px;
+    margin-bottom: 4em;
+    margin-left: 11.5em;
   }
 }
 p {
@@ -101,6 +125,8 @@ p {
   font-family: $font;
   color: white;
 }
+
+
 
 @-webkit-keyframes apparition {
   0% {
