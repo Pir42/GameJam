@@ -52,12 +52,16 @@ body {
         position: relative;
         top: 10px;
         left: 65px;
+        color: brown;
       }
     }
   }
   .text {
     padding-top: 20em;
     padding-left: 5em;
+    i {
+      padding-bottom: 1em;
+    }
   }
 }
 .about {
@@ -92,3 +96,8 @@ p {
 }
 
 
+.copyright {
+  display: none;
+  font-family: $font;
+  color: white;
+}
