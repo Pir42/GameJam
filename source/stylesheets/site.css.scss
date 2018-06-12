@@ -3,6 +3,7 @@ $font: 'IM Fell Double Pica', serif;
 
 body {
   margin: 0;
+  background-color: black;
 }
 .img {
   height: 110vh;
@@ -120,8 +121,9 @@ p {
   }
 }
 
-.copyright {
-  display: none;
+.copyright p {
+  margin-top: 160px;
+  text-align: right;
   font-family: $font;
   color: white;
 }
